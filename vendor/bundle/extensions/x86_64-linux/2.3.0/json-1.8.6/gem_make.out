@@ -1,0 +1,13 @@
+current directory: /home/zeeshan/codeclubjusl.github.io/vendor/bundle/gems/json-1.8.6/ext/json
+/usr/bin/ruby2.3 -r ./siteconf20170428-30656-nox8p9.rb extconf.rb
+creating Makefile
+
+current directory: /home/zeeshan/codeclubjusl.github.io/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/zeeshan/codeclubjusl.github.io/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/zeeshan/codeclubjusl.github.io/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

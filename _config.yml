@@ -1,3 +1,4 @@
 name: Zeeshan Amjad, Lazy Programmer
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title  
+theme: minima

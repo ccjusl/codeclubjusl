@@ -1,2 +1,2 @@
-#The Club's Webpage  
+# The Club's Website  
 https://codeclubjusl.github.io/

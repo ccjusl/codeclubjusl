@@ -1,7 +1,7 @@
 ---
+title: Switching from C to C++
 layout: post
-title: "Switching from C to C++"
-date: 2017-05-17
+date: '2017-05-17'
 ---
 
 Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what one could achieve with a program in C :

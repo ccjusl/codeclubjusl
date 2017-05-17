@@ -52,8 +52,7 @@ In C++, this is as simple as :
 using namespace std;
 
 void print_sorted_stringarray (string s[], int len) { 
-    int i;
-    for(i = 0; i < len; ++i) 
+    for(int i = 0; i < len; ++i) 
         cout << s[i] << " | "; 
     
     cout << '\n';

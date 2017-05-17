@@ -6,7 +6,7 @@ date: 2017-05-17
 
 Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what we could achieve with a program in C :
 
-{% highlight c %}
+{% highlight c linenos %}
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,4 +39,5 @@ int main () {
     return 0;
 }
 {% endhighlight %}
+
 Creepy, isn't it?

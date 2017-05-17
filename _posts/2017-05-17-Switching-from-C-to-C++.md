@@ -4,7 +4,7 @@ title: "Switching from C to C++"
 date: 2017-05-17
 ---
 
-Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what we could achieve with a program in C :
+Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what one could achieve with a program in C :
 
 {% highlight c linenos %}
 #include <stdio.h>
@@ -77,7 +77,7 @@ int main () {
 If you are unfamiliar with the library function **qsort()** you might want to peep into [this](http://www.geeksforgeeks.org/comparator-function-of-qsort-in-c/) or [this](https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm). It's not needed for now though. The C++ [sort()](http://www.cplusplus.com/reference/algorithm/sort/) function defined in the header **<<algorithm>>** is much easier to use in comparison.  
 Also notice how the C++ [string](http://www.cplusplus.com/reference/string/string/) type replaces the more complicated **char*** or a **char[]** type that is normally used to represent a string in C.    
 
-We no longer need to specify the type when writing to the standard output as we did while using printf. Writing something like this would do:  
+One no longer needs to specify the type when writing to the standard output as one did while using printf. Writing something like this would do:  
 {% highlight cpp %}
   
 	int a = 10, b = 20;
@@ -93,15 +93,13 @@ Likewise, cin can be used to read values from the standard input in place of sca
 {% endhighlight %}  
 [Learn more about Basic I/O in C++....](http://www.cplusplus.com/doc/tutorial/basic_io/)  
     
-
-  
 Let's look at   
 {% highlight cpp %}
   
 	using namespace std;
   
 {% endhighlight %}  
-This tells the compiler that the namespace **std** is intended for use. Let's not dig into **namespaces** in a simple blog post. Only thing, without this line, we would need to replace **string** with **std::string**.  
+This tells the compiler that the namespace **std** is intended for use. Let's not dig into **namespaces** in a simple blog post. Only thing, without this line, one would need to replace **string** with **std::string**.  
 
 
 Though one might be knowing that these two languages are syntactically similar to each other, one might come across something fancy from time to time (or ***code to code***). Take this snippet for instance:  
@@ -116,4 +114,4 @@ Though one might be knowing that these two languages are syntactically similar t
 		cout << "Not a leap year";
   
 {% endhighlight %}   
-Yes, one can actually write **and**, **or** and **not** instead of the punctuations. 
+Yes, one can actually use the pythonic **and**, **or** and **not** instead of the punctuations. 

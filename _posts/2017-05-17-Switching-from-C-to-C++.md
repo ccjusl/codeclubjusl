@@ -41,3 +41,35 @@ int main () {
 {% endhighlight %}
 
 Creepy, isn't it?
+In C++, this is as simple as :
+
+{% highlight cpp linenos %}
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+void print_sorted_stringarray (string s[], int len) { 
+    int i;
+    for(i = 0; i < len; ++i) 
+        cout << s[i] << " | "; 
+    
+    cout << '\n';
+} 
+
+int main () {
+    /*array to be sorted*/
+    string s[] = {"Alexia", "Celine", "Alex", "Billie", "Forest", "Bill"};
+
+    /*sort the strings*/
+    sort (s, s + 6);
+
+    /*print the sorted array*/
+    print_sorted_stringarray (s, 6);
+
+    return 0;
+}
+
+{% endhighlight %}

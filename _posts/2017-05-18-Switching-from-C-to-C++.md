@@ -194,4 +194,13 @@ As one can deduce, the [iterator](http://www.cplusplus.com/reference/iterator/) 
 * The main [reason](http://objectorientedprogrammingcpp.blogspot.in/2010/01/how-c-programming-language-came-into.html) C++ came into existence was to introduce [abstraction](https://www.tutorialspoint.com/cplusplus/cpp_data_abstraction.htm).   
 * C++ is an **object oriented programming** language. Classes and objects facilitate other programming paradigms such as **polymorphism**.   
 * One must not confuse the c strings to c++ library strings. They have different signatures and routines defined for them have different functionalities and time complexities.  
+
+**RESOURCES to Learn C++ From** 
+* C++ Primer, 5th Edition by Stanley B. Lippman, Josée Lajoie, Barbara E. Moo  
+* The C++ Programming Language by Bjarne Stroustrup
+* Bjarne Stroustrup - The Essence of C++  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameborder="0" allowfullscreen></iframe> 
 * [Hackerrank](https://www.hackerrank.com/domains/cpp/cpp-introduction) can serve as a good platform to kick off practising. 
+* [TutorialsPoint](https://www.tutorialspoint.com/cplusplus/)  
+* [LearnCPP](http://www.learncpp.com/)  
+* To start with [STL in Competitive Programming](https://www.topcoder.com/community/data-science/data-science-tutorials/power-up-c-with-the-standard-template-library-part-1/)

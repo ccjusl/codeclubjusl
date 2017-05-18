@@ -1,7 +1,7 @@
 ---
 title: Switching from C to C++
 layout: post
-date: '2017-05-17'
+date: '2017-05-18'
 ---
 
 Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what one could achieve with a program in C :
@@ -114,4 +114,84 @@ Though one might be knowing that these two languages are syntactically similar t
 		cout << "Not a leap year";
   
 {% endhighlight %}   
-Yes, one can actually use the pythonic **and**, **or** and **not** instead of the punctuations. 
+One can actually use the pythonic **and**, **or** and **not** instead of the punctuations.   
+
+
+Here's how a [singly linked list](https://en.wikipedia.org/wiki/Linked_list) can be built from a C++ [string](http://www.cplusplus.com/reference/string/string/):  
+{% highlight cpp linenos %}
+
+#include <iostream>
+using namespace std;
+
+struct Node {
+    char data;
+    Node *next;
+    Node () {
+        data = 0;
+        next = NULL;
+    }
+};
+
+bool BuildList (Node **head, string s) {
+    Node *temp = *head;
+    for (int i = 0; i < s.size(); ++i) { 
+        temp->data = s[i];
+        if (i < s.size() - 1) {
+            temp->next = new Node();
+            temp = temp->next;
+        }
+    }
+    return true;
+}
+
+bool PrintList (Node *head) {
+    Node *temp = head;
+    while (temp) {
+        cout << temp->data << ' ';
+        temp = temp->next;
+    }
+    cout << '\n';
+    return true;
+}
+
+int main() {
+    string s = "2b || ! 2b";
+    Node *ListHead = new Node();
+    BuildList (&ListHead, s);
+    PrintList (ListHead);
+    return 0;
+}
+  
+{% endhighlight %} 
+
+While builing a linked list in C, one had to write a routine that would ***make*** a node, i.e., allocate memory to a node and then make its next pointer point to NULL. The **Node()** method does this for us here. Whenever a new node is created, this method is invoked at runtime. The **new Node()** instruction returns a pointer to the block of memory allocated [dynamically](http://www.cplusplus.com/reference/new/operator%20new[]/) by it.  
+
+C++ has built in functionalities for using data structures like lists, stacks, queues, heaps and so on. These are popularly known as [STL containers](http://www.cplusplus.com/reference/stl/).   
+
+{% highlight cpp linenos %}
+
+#include <iostream>
+#include <list>
+using namespace std;
+
+int main () {
+    list <char> mylist;
+    string s = "2b || ! 2b";
+    /*insert items in mylist*/
+    for (int i = 0; i < s.size(); ++i)
+        mylist.push_back (s[i]);
+    /*iterate over list items*/
+    list <char>::iterator it = mylist.begin();
+    for (it = mylist.begin(); it != mylist.end(); ++it)
+        cout << *it << ' ';
+    return 0;
+}
+
+{% endhighlight %}
+As one can deduce, the [iterator](http://www.cplusplus.com/reference/iterator/) is a pointer to any of the container elements.  
+
+**NOTES**
+* The main [reason](http://objectorientedprogrammingcpp.blogspot.in/2010/01/how-c-programming-language-came-into.html) C++ came into existence was to introduce [abstraction](https://www.tutorialspoint.com/cplusplus/cpp_data_abstraction.htm).   
+* C++ is an **object oriented programming** language. Classes and objects facilitate other programming paradigms such as **polymorphism**.   
+* One must not confuse the c strings to c++ library strings. They have different signatures and routines defined for them have different functionalities and time complexities.  
+* [Hackerrank](https://www.hackerrank.com/domains/cpp/cpp-introduction) can serve as a good platform to kick off practising. 

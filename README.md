@@ -11,5 +11,16 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
   *  You can simply mail your blog post written in markdown format to  [codeclubjusl@googlegroups.com]()  
 
 * ### ***Contributing through Development***  
-  *  
-  
+  * **Installation** 
+	  1. **Windows**
+	    *  Follow the **first 2 parts** of this [5-part guide.](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
+      
+	  2. **Linux**	   
+     * In your terminal run ```sudo apt-get install ruby-full```  
+
+  * [Fork](https://help.github.com/articles/fork-a-repo/) this repository and make a [clone](https://help.github.com/articles/cloning-a-repository/) on your local computer to get started.  
+  * **Setup**
+    *  Run ```gem install bundler```    
+    *  This installs bundler. Run ```bundle install``` to install the required gems.  
+    *  Start the server in watch mode by running ```bundle exec jekyll serve --watch```  
+    *  You can view your local setup by firing up a browser and going to **localhost:4000**

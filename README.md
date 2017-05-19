@@ -18,8 +18,9 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
 	  2. **Linux**	   
      * In your terminal run ```sudo apt-get install ruby-full```  
 
-  * [Fork](https://help.github.com/articles/fork-a-repo/) this repository and make a [clone](https://help.github.com/articles/cloning-a-repository/) on your local computer to get started.  
+  
   * **Setup**
+    *  [Fork](https://help.github.com/articles/fork-a-repo/) this repository and make a [clone](https://help.github.com/articles/cloning-a-repository/) on your local computer to get started.  
     *  Run ```gem install bundler```    
     *  This installs bundler. Run ```bundle install``` to install the required gems.  
     *  Start the server in watch mode by running ```bundle exec jekyll serve --watch```  

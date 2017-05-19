@@ -93,7 +93,7 @@ Likewise, cin can be used to read values from the standard input in place of sca
 {% endhighlight %}  
 [Learn more about Basic I/O in C++....](http://www.cplusplus.com/doc/tutorial/basic_io/)  
     
-Let's look at   
+Let's look at this line:   
 {% highlight cpp %}
   
 	using namespace std;

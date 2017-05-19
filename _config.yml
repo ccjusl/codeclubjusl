@@ -1,5 +1,6 @@
 name: CodeClub, The Club Of Clubs
 markdown: kramdown
 highlighter: rouge
-
+gems:
+  - jekyll-feed
 permalink: /blog/:year/:month/:day/:title

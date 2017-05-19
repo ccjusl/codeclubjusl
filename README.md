@@ -13,12 +13,10 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
 * ### ***Contributing through Development***  
   * **Installation** 
 	  1. **Windows**
-	    *  Follow the **first 2 parts** of this [5-part guide.](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
-      
+	        *  Follow the **first 2 parts** of this [5-part guide.](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
 	  2. **Linux**	   
-     * In your terminal run ```sudo apt-get install ruby-full```  
-
-  
+          	*  In your terminal run ```sudo apt-get install ruby-full```  
+ 
   * **Setup**
     *  [Fork](https://help.github.com/articles/fork-a-repo/) this repository and make a [clone](https://help.github.com/articles/cloning-a-repository/) on your local computer to get started.  
     *  Run ```gem install bundler```    

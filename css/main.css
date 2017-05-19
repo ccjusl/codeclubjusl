@@ -12,6 +12,9 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav .active {
+    border-bottom: 2px solid grey;
+}
 a {
     text-decoration: none;
     color: #999;

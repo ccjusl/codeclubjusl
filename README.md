@@ -8,7 +8,7 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
 
 # Contributing Guidelines  
 * ### ***Contributing through Content*** 
-  *  You can simply mail your blog post written in markdown format to  [codeclubjusl@googlegroups.com]()  
+  *  You can simply mail your blog post written in [markdown](https://learn.getgrav.org/content/markdown) format to  [codeclubjusl@googlegroups.com]()  
 
 * ### ***Contributing through Development***  
   * **Installation** 

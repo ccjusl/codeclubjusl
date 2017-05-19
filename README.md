@@ -23,3 +23,6 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
     *  This installs bundler. Run ```bundle install``` to install the required gems.  
     *  Start the server in watch mode by running ```bundle exec jekyll serve --watch```  
     *  You can view your local setup by firing up a browser and going to **localhost:4000**
+
+# License
+This project is licensed under the **MIT License**.

@@ -25,6 +25,7 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
     *  You can view your local setup by firing up a browser and going to **localhost:4000**
     
   * To better understand the code one can go through [this marvelous guide](http://jmcglone.com/guides/github-pages/).
+  * You can learn and practice [Jekyll](https://jekyllrb.com/) from [this awesome tutorial](https://learn.cloudcannon.com/).
   * [Issue Tracker](https://github.com/CodeClubJUSL/codeclubjusl.github.io/issues)
 
 # Support

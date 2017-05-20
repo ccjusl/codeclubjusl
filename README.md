@@ -32,4 +32,4 @@ If you are having issues, please let us know.
 We have a mailing list located at: [codeclubjusl@googlegroups.com]()  
 
 # License
-This project is licensed under the **MIT License**.
+This project is licensed under the [**MIT License**](https://github.com/CodeClubJUSL/codeclubjusl.github.io/blob/gh-pages/LICENSE.txt).

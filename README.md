@@ -7,10 +7,10 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
 * [Jekyll](https://jekyllrb.com/), a Ruby Gem, is used as the static site generator which makes blogging simpler.  
 
 # Contributing Guidelines  
-* ### ***Contributing through Content*** 
+* ### Contributing through Content
   *  You can simply mail your blog post written in [markdown](https://learn.getgrav.org/content/markdown) format to  [codeclubjusl@googlegroups.com]()  
 
-* ### ***Contributing through Development***  
+* ### Contributing through Development  
   * **Installation** 
 	  1. **Windows**
 	        *  Follow the **first 2 parts** of this [5-part guide.](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
@@ -25,6 +25,10 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
     *  You can view your local setup by firing up a browser and going to **localhost:4000**
     
   * To better understand the code one can go through [this marvelous guide](http://jmcglone.com/guides/github-pages/).
+
+# Support
+If you are having issues, please let us know.
+We have a mailing list located at: [codeclubjusl@googlegroups.com]()  
 
 # License
 This project is licensed under the **MIT License**.

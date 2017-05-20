@@ -25,7 +25,7 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
     *  You can view your local setup by firing up a browser and going to **localhost:4000**
     
   * To better understand the code one can go through [this marvelous guide](http://jmcglone.com/guides/github-pages/).
-  * Issue Tracker: https://github.com/CodeClubJUSL/codeclubjusl.github.io/issues
+  * [Issue Tracker](https://github.com/CodeClubJUSL/codeclubjusl.github.io/issues)
 
 # Support
 If you are having issues, please let us know.

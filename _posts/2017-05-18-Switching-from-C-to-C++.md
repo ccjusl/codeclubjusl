@@ -126,8 +126,8 @@ using namespace std;
 struct Node {
     char data;
     Node *next;
-    Node () {
-        data = 0;
+    Node (char data = 0) {
+        this->data = data;
         next = NULL;
     }
 };
@@ -135,11 +135,13 @@ struct Node {
 bool BuildList (Node **head, string s) {
     Node *temp = *head;
     for (int i = 0; i < s.size(); ++i) { 
-        temp->data = s[i];
-        if (i < s.size() - 1) {
-            temp->next = new Node();
-            temp = temp->next;
+        if (!i) {
+            *head = new Node (s[i]);
+            temp = *head;
+            continue;
         }
+        temp->next = new Node (s[i]);
+        temp = temp->next;
     }
     return true;
 }
@@ -156,7 +158,7 @@ bool PrintList (Node *head) {
 
 int main() {
     string s = "2b || ! 2b";
-    Node *ListHead = new Node();
+    Node *ListHead = NULL;
     BuildList (&ListHead, s);
     PrintList (ListHead);
     return 0;

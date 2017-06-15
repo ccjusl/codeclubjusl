@@ -62,14 +62,14 @@ When the method deleteNode() is called, the variable **walk** which is local to 
 Here are the values we are going to store in **walk** while iterating through the list:  
 At iteration 1, walk = 0x887.  
 At iteration 2, walk = 0x304.  
-At iteration 3, walk = 0x134.  
+At iteration 3, walk = 0x174.  
 At iteration 4, walk = 0x712.  
 We intend **walk** to store the address of the next pointers of the node. Hence, if we want to delete the node with key '1', we need to store the value 0x708 at the address 0x304 (address of the previous pointer of node with key '1'). Simple!  
 
 But what if we had to delete the first node? Then we need only change **walk** to store **0x170** (address of the second node).
 
 {% highlight cpp linenos %}
-void deleteNode (Node **walk, char key) {
+void deleteNode (Node **walk, int key) {
     while ((*walk)->data != key) 
         walk = &((*walk)->next);
     *walk = (*walk)->next;

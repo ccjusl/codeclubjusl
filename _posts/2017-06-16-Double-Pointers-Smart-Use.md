@@ -69,7 +69,7 @@ We intend **walk** to store the address of the next pointers of the node. Hence,
 But what if we had to delete the first node? Then we need only change **walk** to store **0x170** (address of the second node).
 
 {% highlight cpp linenos %}
-void deleteNode (Node **walk, char key) {
+void deleteNode (Node **walk, int key) {
     while ((*walk)->data != key) 
         walk = &((*walk)->next);
     *walk = (*walk)->next;

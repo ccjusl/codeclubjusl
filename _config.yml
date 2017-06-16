@@ -3,4 +3,5 @@ markdown: kramdown
 highlighter: rouge
 gems:
   - jekyll-feed
+  - jemoji
 permalink: /blog/:year/:month/:day/:title

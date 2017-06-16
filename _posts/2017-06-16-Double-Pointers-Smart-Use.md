@@ -1,6 +1,7 @@
 ---
 title: Smart Usage of Double Pointers
 layout: post
+comments: true
 date: '2017-06-16'
 ---
 

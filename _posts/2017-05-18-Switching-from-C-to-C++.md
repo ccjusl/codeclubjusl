@@ -1,6 +1,7 @@
 ---
 title: Switching from C to C++
 layout: post
+comments: true
 date: '2017-05-18'
 ---
 

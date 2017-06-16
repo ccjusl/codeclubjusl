@@ -6,7 +6,7 @@ date: '2017-06-16'
 ---
 
 So what's in a double pointer? It's just a pointer to a pointer. We're done.  
-:P    
+😋    
 Since a pointer is a variable that contains the address of some other variable, a double pointer contains the address of a pointer variable.  
 
 {% highlight cpp linenos %}
@@ -90,4 +90,4 @@ That's it! This can handle all cases we have. At each iteration we check whether
 
 *Also, trace what happens when we have only one node in the list, and that needs to be deleted.*  
 
-That's all folks, **CHEERS! :)**
+That's all folks, **CHEERS! 😃**

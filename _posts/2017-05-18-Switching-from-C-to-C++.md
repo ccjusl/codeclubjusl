@@ -1,8 +1,9 @@
 ---
-title: Switching from C to C++
 layout: post
-comments: true
+title: Switching from C to C++
+author: Zeeshan Amjad
 date: '2017-05-18'
+comments: true
 ---
 
 Before we even begin, let's get our hands dirty. Say we are given to sort an array of strings. Here's what one could achieve with a program in C :

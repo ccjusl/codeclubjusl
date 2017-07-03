@@ -4,8 +4,8 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css"> 
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="/css/syntax.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 			{% feed_meta %}
 			{% if jekyll.environment == 'production' %}
@@ -22,10 +22,11 @@
 		        		<a href="/about">About</a>
 		        	</li>
 	        		<li {% if page.url == '/blog/' %} class="active" {% endif %}>
-	        			<a href="/blog">Blog</a>
+	        			<a href="/blog">CodeBlog</a>
 	        		</li>
 	    		</ul>
 			</nav>
+			
 			<div class="container">
 			
 			{{ content }}

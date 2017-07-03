@@ -1,8 +1,9 @@
 ---
-title: Smart Usage of Double Pointers
 layout: post
-comments: true
+title: Smart Usage of Double Pointers
+author: Zeeshan Amjad
 date: '2017-06-16'
+comments: true
 ---
 
 So what's in a double pointer? It's just a pointer to a pointer. We're done.  

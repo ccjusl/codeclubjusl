@@ -1,5 +1,5 @@
 # The Project  
-[codeclubjusl.github.io](https://codeclubjusl.github.io/) is currently a blogging-oriented website
+[jusl.github.io/codeclubjusl](https://jusl.github.io/codeclubjusl) is currently a blogging-oriented website
 built by [CodeClub JUSL, Jadavpur University](). This open source project facilitates users to write and upload blog posts in the topics of computer science and competitive programming.  
 
 # Features  
@@ -26,7 +26,7 @@ built by [CodeClub JUSL, Jadavpur University](). This open source project facili
     
   * To better understand the code one can go through [this marvelous guide](http://jmcglone.com/guides/github-pages/).
   * You can learn and practice [Jekyll](https://jekyllrb.com/) from [this awesome tutorial](https://learn.cloudcannon.com/).
-  * [Issue Tracker](https://github.com/CodeClubJUSL/codeclubjusl.github.io/issues)
+  * [Issue Tracker](https://github.com/jusl/codeclubjusl/issues)
 
 # Support
 If you are having issues, please let us know.

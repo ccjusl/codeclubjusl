@@ -27,7 +27,7 @@ Since you have setup everything, you can start building apps!
 6. In **Customize the Activity** screen, keep the default values and click **Finish**.<br /><br />
 7. After some time, the IDE opens. Before starting, be sure to review the most important files!
     - First of all, make sure that the **Project** window is opened (Select **View -> Tool Windows -> Project**). Also, **Android** view is selected from the drop-down list at the top of that window.
-<img src="../../../../images/Android-App-Development-Start-Building-Apps/Project_Android.png">
+<img src="images/Android-App-Development-Start-Building-Apps/Project_Android.png">
     - These are some of the **important** files:
         - **AndroidManifest.xml (app > manifests > AndroidManifest.xml)** : The [manifest](https://developer.android.com/guide/topics/manifest/manifest-intro.html) file describes the fundamental characteristics of the app and defines each of its components.
         - **build.gradle (Gradle Scripts > build.gradle)** : You'll see two files with this name: one for the project and one for the "app" module. Each module has its own build.gradle file, but this project currently has just one module. You'll mostly work with the module's build.gradle file to configure how the Gradle tools compile and build your app. For more information about this file, see [Configure Your Build](https://developer.android.com/studio/build/index.html).

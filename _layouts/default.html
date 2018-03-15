@@ -3,10 +3,11 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css"> 
-			<link rel="stylesheet" href="/css/syntax.css">
+            <base href="https://jusl.github.io/codeclubjusl/">
+			<link rel="stylesheet" type="text/css" href="css/main.css">
+			<link rel="stylesheet" href="css/syntax.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+			<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 			{% feed_meta %}
 			{% if jekyll.environment == 'production' %}
 				{% include analytics.html %}
@@ -16,26 +17,26 @@
 			<nav>
 	    		<ul id="nav">
 	        		<li {% if page.url == '/' %} class="active" {% endif %}>
-	        			<a href="/">Home</a>
+	        			<a href="">Home</a>
 	        		</li>
 		        	<li {% if page.url == '/about/' %} class="active" {% endif %}>
-		        		<a href="/about">About</a>
+		        		<a href="about">About</a>
 		        	</li>
 	        		<li {% if page.url == '/blog/' %} class="active" {% endif %}>
-	        			<a href="/blog">CodeBlog</a>
+	        			<a href="blog">CodeBlog</a>
 	        		</li>
 	    		</ul>
 			</nav>
-			
+
 			<div class="container">
-			
+
 			{{ content }}
-			
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
         			<li>
-        				<a href="https://github.com/codeclubjusl" target="_blank">
+        				<a href="https://github.com/jusl" target="_blank">
         				<i class="fa fa-github" aria-hidden="false"></i>
         			</li>
         			<li>
@@ -43,11 +44,10 @@
         				<i class="fa fa-facebook" aria-hidden="true"></i>
         			</li>
         			<li>
-        				<a href="https://codeclubjusl.github.io/blog/atom.xml" target="_blank">
+        				<a href="https://jusl.github.io/codeclubjusl/blog/atom.xml" target="_blank">
         				<i class="fa fa-rss" aria-hidden="true"></i>
         			</li>
 				</ul>
 			</footer>
 		</body>
 	</html>
-	

@@ -19,7 +19,7 @@ cout << a << ' ' << b << ' ' << *a << ' ' << *b << ' ' << **b << '\n';
 
 To understand the output, here's how these quantities could be roughly mapped in memory:  
 
-<img src="../../../../images/Double-Pointers-Smart-Use/Node.png">
+<img src="images/Double-Pointers-Smart-Use/Node.png">
 
 Now we can relate the results we get on dereferencing the variable **b** once and twice.  
 
@@ -30,7 +30,7 @@ Now given the address of a variable which points to some other variable, we can 
 
 Let's follow up on this thought using the singly linked list 0 --> 1 --> 2.
 
-<img src="../../../../images/Double-Pointers-Smart-Use/LinkedList.png">  
+<img src="images/Double-Pointers-Smart-Use/LinkedList.png">  
 
 {% highlight cpp linenos %}
 struct Node {
@@ -59,7 +59,7 @@ int main () {
 
 When the method deleteNode() is called, the variable **walk** which is local to the called method has the address of the head pointer of the list (0x887 in this case).
 
-<img src="../../../../images/Double-Pointers-Smart-Use/walk.png">  
+<img src="images/Double-Pointers-Smart-Use/walk.png">  
 
 Here are the values we are going to store in **walk** while iterating through the list:  
 At iteration 1, walk = 0x887.  
@@ -72,7 +72,7 @@ But what if we had to delete the first node? Then we need only change **walk** t
 
 {% highlight cpp linenos %}
 void deleteNode (Node **walk, int key) {
-    while ((*walk)->data != key) 
+    while ((*walk)->data != key)
         walk = &((*walk)->next);
     *walk = (*walk)->next;
 }

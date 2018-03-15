@@ -5,7 +5,7 @@ comments: true
 date: '2017-07-03'
 ---
 
-<img src="../../../../images/Android-App-Development-Getting-Started/android_begin.jpg">
+<img src="images/Android-App-Development-Getting-Started/android_begin.jpg">
 
 Hi, this blog will guide you through the basics of android app development!
 
@@ -25,7 +25,7 @@ So, let's get started with downloading and installing the required software to d
 ## Step 1 - Download [Android Studio](https://developer.android.com/studio/index.html).
 - Android Studio is an IDE specially designed for Android App Development.
 
-<img src="../../../../images/Android-App-Development-Getting-Started/android_studio.jpg">
+<img src="images/Android-App-Development-Getting-Started/android_studio.jpg">
 
 ## Step 2 - Setting up android studio.
 
@@ -48,12 +48,12 @@ Now, before moving further you need to specify the location of java to your mach
 
 When you launch Android Studio, you will be presented with a menu where you will be able to get started or configure some options. Here, you should familiarize youself with **SDK Manager** (Configure - > SDK Manager)  which is where you’ll update your Android SDK to support newer versions, as well as download things like code samples or support for Google Glass. Don’t worry about that now but if Android Studio says you’re missing something, this is where you’ll probably need to go to find it.
 
-<img src="../../../../images/Android-App-Development-Getting-Started/android_studio_complete.png">
+<img src="images/Android-App-Development-Getting-Started/android_studio_complete.png">
 
 Now, you are all set to start building android apps! **CHEERS**! :beers:
 
 -----
-So there are mainly three things interacting when you use Android Studio to create your apps - 
+So there are mainly three things interacting when you use Android Studio to create your apps -
 - Android Studio itself.
 - The code you write in Java and XML.
 - And the Android SDK which you’ll access through your Java code.
